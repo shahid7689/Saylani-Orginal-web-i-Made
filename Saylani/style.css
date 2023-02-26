@@ -1,0 +1,195 @@
+.nvb{
+    background-color: rgb(235, 238, 240);
+    height: 30px;
+}
+body{
+    font-family: 'Montserrat';
+}
+.main{
+    display: inline-block;
+}
+
+.mail{
+    height: 15px;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    color: rgb(65, 65, 65);
+}
+.phone{
+    height: 15px;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    color: rgb(65, 65, 65);
+}
+h6
+{
+    color: rgb(50, 50, 202);
+    font-weight: 600;
+}
+.cards
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 400px;
+    height: fit-content;
+    border-radius: 10px;
+    margin: 1% 1%;
+}
+.cards2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 300px;
+    height: fit-content;
+    border-radius: 10px;
+    margin: 1% 1%;
+}
+hr{
+    color: white;
+    width: 100%;
+}
+.footer
+{
+    color: white;
+    background-image: url("footer\ image.jpeg");
+    padding: 3% 10%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.tit2
+{
+    background-color: rgb(201, 235, 201);
+    border-radius: 10px;
+    padding: 3% 3% 3% 3%;
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons
+{
+    background-color: rgb(212, 214, 214);
+    border-radius: 7px;
+    width: 50px;
+    padding: 4% 2%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.btn-size
+{
+    height: 50%;
+    margin: 1%;
+    padding: 1% 2%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    width: fit-content;
+}
+.btn-size:hover
+{
+    background-color: rgb(19, 19, 19);
+    color: white;
+    scale: 1.1;
+}
+*, ::after, ::before {
+    box-sizing: content-box;
+}
+.main-color
+{
+    background-color: rgb(59, 189, 59);
+    color: white;
+}
+.main-color:hover
+{
+    background-color: rgb(59, 189, 59);
+    color: white;
+}
+.nbr-color{
+    background-color: white;
+    scale: 1.1;
+}
+
+.images
+{
+    height: 35vh;
+    width: 500px;
+    border-radius: 10px;   
+}
+.images:hover
+{
+    scale: 1.05;
+    opacity: 0.9;
+}
+.image1
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url("sadqah.jpg");
+}
+.image2
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url("pc.jpg");
+}
+.image3
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url("winter.jpg");
+}
+.small-boxes
+{
+    width: 10%;
+    height: 150px;
+    border-radius: 10px;
+    padding: 2% 5%;
+    margin-left: 2%;
+    background-color: rgb(201, 235, 201);
+}
+.small-boxes:hover
+{
+    scale: 1.1;
+}
+.donate-btn{
+    background-color: rgb(3, 152, 252);
+    color: white;
+    border: 0ch;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.one-card{
+    margin-top: 130px;
+    display: inline-block;
+    
+}
+
+.two-card{
+    /* margin-top: 100px; */
+    display: inline-block;
+    
+}
+
+.rm{
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(124, 123, 123);
+    border-color:  rgb(173, 171, 171);
+    font-size: smaller;
+}
+
+ .second-card{
+    background-color: rgb(176, 225, 150);
+    height: 300px;
+    
+} 
+
